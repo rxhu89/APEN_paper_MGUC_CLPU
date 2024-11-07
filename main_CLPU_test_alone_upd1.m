@@ -1,8 +1,8 @@
-%% this is for test the accuracy of the adaptive CLPU model alone, namely with given on-off command
+%% this is for testing the accuracy of the adaptive CLPU model alone, namely with the given on-off command
 %% pre-otg is normal status: 
 %% statu_ini, temp_ini @ norm; Uhvac_sched_ini = 1;  dp_ini = 0; khvac_ini = hvac_knorm_all(1)
 %% here uses the optimization method(based on the adaptive CLPU formulation <MILP> for MGUC integration) to get the CLPU estimation (Yalmip+clpex), not the analytical method
-%% add the case with constant otg but time-varying temperature
+%% add the case with constant otg but the time-varying temperature
 
 clc;clear;close all
 
